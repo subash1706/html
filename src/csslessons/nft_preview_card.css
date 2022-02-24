@@ -1,0 +1,145 @@
+:root {
+    --mainbg: hsl(217, 54%, 11%); /* Main Bg */
+    --cardbg: hsl(216, 50%, 16%); /* Card Bg */
+    --line: hsl(215, 32%, 27%); /* Line */
+    --white: hsl(0, 0%, 100%);
+    --lightblue: hsl(228, 45%, 44%); /* Footer */
+    --softblue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+  }
+  
+  body {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    background-color: var(--mainbg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    height: 100vh;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  p {
+    font-weight: 300;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+  }
+  
+  .container {
+    width: 300px;
+    height: 550px;
+    background-color: var(--cardbg);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+  }
+  
+  .container .card img {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .container .card {
+    position: relative;
+  }
+  
+  .container .card div {
+    position: absolute;
+    top: 0;
+    background-color: hsl(178, 100%, 50%, 60%);
+    width: 100%;
+    height: 300px;
+    z-index: 999;
+    opacity: 0;
+  }
+  
+  .container .card div:hover {
+    border-radius: 10px;
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .container .card div img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .container h2 {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 1rem 0.5rem 0.5rem 0;
+  }
+  
+  .container h2:hover {
+    color: var(--cyan);
+    cursor: pointer;
+  }
+  
+  .container p {
+    color: var(--softblue);
+    font-size: 15px;
+  }
+  
+  .container ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  
+  .container ul li img {
+    margin-right: 0.5rem;
+  }
+  
+  .container ul li:first-child {
+    color: var(--cyan);
+  }
+  
+  .container .avatar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container .avatar img {
+    width: 3.5rem;
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .container .avatar p span {
+    color: var(--white);
+    font-weight: 400;
+  }
+  
+  .container .avatar p span:hover {
+    color: var(--cyan);
+    cursor: pointer;
+  }
+  
+  @media (min-width: 500px) {
+  } ;
