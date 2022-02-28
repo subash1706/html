@@ -1,0 +1,123 @@
+:root{
+    
+    --clr-cyan: hsl(185, 75%, 39%);
+    --clr-heading: hsl(229, 23%, 23%);
+    --clr-text-darker: hsl(227, 10%, 46%);
+    --clr-text: hsl(0, 0%, 59%);
+
+    --fw-primary: 400;
+    --fw-accent: 700;
+
+}
+
+/*null*/
+
+*,
+*::after,
+*::before{
+    margin:0; padding:0; box-sizing: border-box;
+}
+
+html{
+    
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card-container{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--clr-cyan);
+    z-index: 1;
+    background-image: url(./bg-pattern-top.svg), url(./bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 52vw bottom 25vh, left 46vw top 52vh;
+}
+
+
+
+.card{
+    z-index: 10;
+    max-width: 23.438rem;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    border-radius: 1rem;
+    background-image: url(./bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    box-shadow: 0 0 15px -10px var(--clr-heading);
+    
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.card-image{
+    display: block;
+    background-color: white;
+    width: 65%;
+    align-self: center;
+    margin-top: 1rem;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    outline: 5px solid white;
+}
+
+.card-name-age-split{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 1.2rem 0 0.5rem 0;
+}
+
+.card-name{
+    font-size: 1.2rem;
+    font-weight: var(--fw-accent);
+    color:hsl(229, 23%, 23%);
+}
+
+.card-age{
+    color: var(--clr-text-darker);
+    font-size: 1.2rem;
+}
+
+.card-location{
+    color: var(--clr-text-darker);
+}
+
+.card-split{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 3rem;
+    gap: 2.5rem;
+    border-top: 1.5px solid hsl(0, 0%, 59%, 0.2);
+}
+
+.card-split-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 1.5rem;
+}
+
+.card-split-stats{
+    font-weight: var(--fw-accent);
+    font-size: 1.2rem;
+    color: var(--clr-heading);
+    padding-bottom: 0.3rem;
+}
+
+.card-split-stats-description{
+    color: var(--clr-text);
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+}
