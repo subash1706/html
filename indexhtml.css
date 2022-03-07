@@ -1,0 +1,141 @@
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body,
+button {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h3 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 30px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.btn {
+  background-color: var(--Very-light-gray);
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.bright_orange {
+  background-color: var(--Bright-orange);
+  color: var(--Transparent-white);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.bright_orange .btn {
+  color: var(--Bright-orange);
+}
+
+.bright_orange .btn:hover {
+  background-color: var(--Bright-orange);
+  color: var(--Transparent-white);
+}
+
+.dark_cyan {
+  background-color: var(--Dark-cyan);
+  color: var(--Transparent-white);
+}
+
+.dark_cyan .btn {
+  color: var(--Dark-cyan);
+}
+
+.dark_cyan .btn:hover {
+  background-color: var(--Dark-cyan);
+  color: var(--Transparent-white);
+}
+
+.very_dark_cyan {
+  background-color: var(--Very-dark-cyan);
+  color: var(--Transparent-white);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.very_dark_cyan .btn {
+  color: var(--Very-dark-cyan);
+}
+
+.very_dark_cyan .btn:hover {
+  background-color: var(--Very-dark-cyan);
+  color: var(--Transparent-white);
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  padding: 30px;
+}
+
+.card img {
+  margin-bottom: 25px;
+}
+
+.card h3 {
+  margin-bottom: 20px;
+}
+
+.card p {
+  margin-bottom: 25px;
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  transition: all 0.4s ease;
+}
+.attribution a:hover {
+  color: lightblue;
+  font-size: 18px;
+}
+@media (min-width: 992px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 900px;
+    margin: auto;
+  }
+  .bright_orange {
+    border-radius: 10px 0 0 10px;
+  }
+  .very_dark_cyan {
+    border-radius: 0 10px 10px 0;
+  }
+  .card {
+    padding: 45px;
+  }
+  .card p {
+    margin-bottom: 80px;
+  }
+}

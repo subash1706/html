@@ -1,0 +1,14 @@
+urls:
+23feb...
+1. https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+https://drafts.csswg.org/selectors/#structural-pseudos
+https://www.frontendmentor.io/
+24th feb...
+https://developer.mozilla.org/en-US/docs/Web/CSS/:root
+https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x
+https://www.w3schools.com/css/css_positioning.asp
+
+https://www.chromium.org/Home/
+
