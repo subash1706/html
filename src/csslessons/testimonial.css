@@ -80,7 +80,7 @@
   flex-direction: row;
   margin-bottom: 1rem;
 }
-#articles__pictures-profile {
+.articles__pictures-profile {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -94,7 +94,7 @@
 .article--heston .articles__photo {
   border: 0.15rem solid hsl(266, 63%, 61%);
 }
-#articles__titles {
+.articles__titles {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -134,7 +134,7 @@ body {
   padding-left: 6rem;
   padding-right: 6rem;
 }
-#grid-container {
+.grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
