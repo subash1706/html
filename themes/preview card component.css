@@ -2,40 +2,34 @@ html {
   background-color: hsl(233, 47%, 7%);
   color: white;
 }
-
 @media only screen and (max-width: 728px) {
   .container-flex {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .main-card {
     background-color: hsl(244, 38%, 16%);
     border-radius: 5px;
+    left: 50%;
     position: absolute;
     top: 50%;
-    left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: 85%;
   }
-
   .text-card-section {
-    padding: 50px;
     max-width: 100%;
+    padding: 50px;
   }
-
   .main-text {
-    font-size: 22px;
     font-family: Inter, sans-serif;
+    font-size: 22px;
     font-weight: 700;
     margin-top: 0;
     text-align: center;
   }
-
   .inner-span {
     color: hsl(277, 64%, 61%);
   }
-
   .description-text {
     color: hsla(0, 0%, 100%, 0.6);
     font-family: Inter, sans-serif;
@@ -43,135 +37,117 @@ html {
     line-height: 18px;
     text-align: center;
   }
-
   .flex-footer-card-info-main {
     display: flex;
     flex-direction: column;
   }
-
   .footer-card-main-info {
     font-family: "Inter", sans-serif;
-    font-weight: 700;
     font-size: 18px;
+    font-weight: 700;
     margin-bottom: 0;
     text-align: center;
   }
-
   .footer-card-description-info {
-    font-family: "Lexend Deca", sans-serif;
     color: hsla(0, 0%, 100%, 0.6);
+    font-family: "Lexend Deca", sans-serif;
     font-size: 10px;
-    text-transform: uppercase;
-    margin: 0;
     letter-spacing: 1px;
+    margin: 0;
     text-align: center;
+    text-transform: uppercase;
   }
-
   .flex-img-item {
     width: 100%;
   }
-
   #card-image {
     background-size: cover !important;
     background: url(../src/csslessons/image-header-mobile.jpg) no-repeat;
-    width: 100%;
-    height: 34vh;
+    border-radius: 5px 5px 0 0;
     display: block;
+    height: 34vh;
     margin: 0;
     text-indent: -9999999px;
-    border-radius: 5px 5px 0 0;
+    width: 100%;
   }
-
   .color-overlay {
     background-color: hsla(277, 64%, 61%, 0.4);
-    height: 34vh;
-    width: 100%;
-    position: absolute;
-    z-index: 2;
     border-radius: 5px 5px 0 0;
+    height: 34vh;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
   }
 }
-
 @media only screen and (min-width: 729px) {
   .main-card {
     background-color: hsl(244, 38%, 16%);
+    border-radius: 5px;
+    left: 50%;
     position: absolute;
     top: 50%;
-    left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    border-radius: 5px;
   }
-
   .container-flex {
     display: flex;
     max-width: 928px;
   }
-
   .text-card-section {
-    padding: 50px 80px 50px 50px;
     max-width: 280px;
+    padding: 50px 80px 50px 50px;
   }
-
   .main-text {
-    font-size: 22px;
     font-family: Inter, sans-serif;
+    font-size: 22px;
     font-weight: 700;
     margin-top: 0;
   }
-
   .inner-span {
     color: hsl(277, 64%, 61%);
   }
-
   .description-text {
     color: hsla(0, 0%, 100%, 0.6);
     font-family: Inter, sans-serif;
     font-size: 10px;
     line-height: 18px;
   }
-
   .flex-footer-card-info-main {
     display: flex;
     justify-content: space-between;
   }
-
   .footer-card-main-info {
     font-family: "Inter", sans-serif;
-    font-weight: 700;
     font-size: 15px;
+    font-weight: 700;
     margin-bottom: 0;
   }
-
   .footer-card-description-info {
-    font-family: "Lexend Deca", sans-serif;
     color: hsla(0, 0%, 100%, 0.6);
+    font-family: "Lexend Deca", sans-serif;
     font-size: 8px;
-    text-transform: uppercase;
-    margin: 0;
     letter-spacing: 1px;
+    margin: 0;
+    text-transform: uppercase;
   }
-
   .flex-img-item {
     width: 368px;
   }
-
   #card-image {
     background-size: cover !important;
     background: url("../src/csslessons/image-header-desktop.jpg") no-repeat;
-    width: 368px;
-    height: 100%;
+    border-radius: 0 5px 5px 0;
     display: block;
+    height: 100%;
     margin: 0;
     text-indent: -9999999px;
-    border-radius: 0 5px 5px 0;
+    width: 368px;
   }
-
   .color-overlay {
     background-color: hsla(277, 64%, 61%, 0.4);
-    height: 100%;
-    width: 368px;
-    position: absolute;
-    z-index: 2;
     border-radius: 0 5px 5px 0;
+    height: 100%;
+    position: absolute;
+    width: 368px;
+    z-index: 2;
   }
 }

@@ -1,71 +1,60 @@
-
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
 :root {
-    --light-cyan: hsl(193, 38%, 86%);
-    --neon-green: hsl(150, 100%, 66%);
-    --grayish-blue: hsl(217, 19%, 38%);
-    --dark-grayish-blue: hsl(217, 19%, 24%);
-    --bg-color: hsl(220, 22%, 16%);
+  --bg-color: hsl(220, 22%, 16%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
 }
-
 body {
-    font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
-
 main {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--bg-color);
-    text-align: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
 }
-
 .card {
-    width: 500px;
-    background-color: var(--dark-grayish-blue);
-    border-radius: 0.5em;
-    padding: 1.5em;
-    position: relative;
-    margin: 1em;
+  background-color: var(--dark-grayish-blue);
+  border-radius: 0.5em;
+  margin: 1em;
+  padding: 1.5em;
+  position: relative;
+  width: 500px;
 }
-
 h1 {
-    color: var(--neon-green);
-    font-size: 0.75em;
-    letter-spacing: 2px;
+  color: var(--neon-green);
+  font-size: 0.75em;
+  letter-spacing: 2px;
 }
-
 h2 {
-    color: var(--light-cyan);
-    font-size: 28px;
-    font-weight: 800;
-    padding: 0.75em 0;
+  color: var(--light-cyan);
+  font-size: 28px;
+  font-weight: 800;
+  padding: 0.75em 0;
 }
-
 .divider {
-    padding-bottom: 2em;
+  padding-bottom: 2em;
 }
-
-.btn-next{
-    position: absolute;
-    padding: 1em;
-    border-radius: 50%;
-    border: none;
-    background-color: var(--neon-green);
-    left: 50%;
-    top: 100%;
-    transform: translate(-50%, -50%);
-    width: 4em;
-    height: 4em;
+.btn-next {
+  background-color: var(--neon-green);
+  border-radius: 50%;
+  border: none;
+  height: 4em;
+  left: 50%;
+  padding: 1em;
+  position: absolute;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  width: 4em;
 }
-
 .btn-next:hover {
-    box-shadow: 0 0 2em 5px var(--neon-green);
+  box-shadow: 0 0 2em 5px var(--neon-green);
 }
