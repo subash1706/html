@@ -21,7 +21,7 @@ body {
 }
 body {
   background-color: var(--background-color);
-  background-image: url(.././src/csslessons/pattern-background-desktop.svg);
+  background-image: url(../images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 100vh;
@@ -47,7 +47,7 @@ body {
   width: 90%;
 }
 .order-header-image {
-  background-image: url(.././src/csslessons/illustration-hero.svg);
+  background-image: url(../images/illustration-hero.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

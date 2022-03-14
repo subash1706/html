@@ -1,6 +1,6 @@
 body {
   background-color: hsl(257, 40%, 49%);
-  background-image: url(../huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg);
+  background-image: url(../images/bg-hero-desktop.svg);
   background-repeat: no-repeat;
 }
 @media screen and (min-width: 768px) {
@@ -14,7 +14,7 @@ body {
   }
 
   body {
-    background-image: url(../huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg);
+    background-image: url(../images/bg-hero-desktop.svg);
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -85,7 +85,7 @@ body {
 
   body {
     background-color: hsl(257, 40%, 49%);
-    background-image: url(../huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-mobile.svg);
+    background-image: url(../images/bg-hero-mobile.svg);
     background-position-y: -15%;
     background-repeat: no-repeat;
     background-size: 100%;

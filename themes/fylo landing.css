@@ -165,9 +165,8 @@ body {
   left-storage::after {
     display: none;
   }
-
   .landing {
-    background: url("../fylo-data-storage-component-master/images/bg-mobile.png");
+    background: url("../images/bg-mobile.png");
     flex-direction: column;
     no-repeat: center/cover;
   }

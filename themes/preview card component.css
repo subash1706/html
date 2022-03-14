@@ -62,7 +62,7 @@ html {
   }
   #card-image {
     background-size: cover !important;
-    background: url(../src/csslessons/image-header-mobile.jpg) no-repeat;
+    background: url(../images/image-header-mobile.jpg) no-repeat;
     border-radius: 5px 5px 0 0;
     display: block;
     height: 34vh;
@@ -134,7 +134,7 @@ html {
   }
   #card-image {
     background-size: cover !important;
-    background: url("../src/csslessons/image-header-desktop.jpg") no-repeat;
+    background: url(../images/image-header-desktop.jpg) no-repeat;
     border-radius: 0 5px 5px 0;
     display: block;
     height: 100%;

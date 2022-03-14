@@ -2,13 +2,13 @@
   font-display: swap;
   font-family: "Red Hat Display";
   font-weight: 500;
-  src: url("./RedHatDisplay-Medium.ttf");
+  src: url("../images/RedHatDisplay-Medium.ttf");
 }
 @font-face {
   font-display: swap;
   font-family: "Red Hat Display";
   font-weight: 900;
-  src: url("./RedHatDisplay-Black.ttf");
+  src: url("../images/RedHatDisplay-Black.ttf");
 }
 * {
   border: 0;
