@@ -51,6 +51,14 @@ body {
     margin: 130px 50px 50px 30px;
     text-align: right;
   }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(0, 0%, 100%);
+}
   .image-container {
     display: flex;
     flex-direction: column;
