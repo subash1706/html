@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(56, 53, 53);
+}
+h1{
+    color: white;
+    margin-left: 50%;
+}
+.profile{
+    border-radius: 70%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 25%;
+    border-style: groove;
+}
+.card {
+    width: 65%;
+    border-radius: 20px;
+    margin-left: 18.5%;
+}
+.column1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 410px;
+    background-color:rgba(21, 21, 95, 0.733);
+}
+.column2 {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    height: 410px;
+    border-color:rgb(205, 199, 233) ;
+    background-color:rgb(205, 199, 233);
+}
+.column3  {
+    float: left;
+    width: 30%;
+    height: 710px;
+    padding: 10px;
+    background-color:rgba(53, 53, 94, 0.733);
+    margin-bottom: 10%;
+}
+.column4 {
+    float: left;
+    width: 70%;
+    height: 710px;
+    background-color:rgb(205, 199, 233);
+    margin-bottom: 10%;
+
+}
+.topic{
+    margin-left: 5%;
+}
+.topic1{
+    margin-left: 10%;
+    margin-right: 2%;
+}
+.topic2{
+    margin-left: 10%;
+    margin-right: 2%;
+}
+.topic3{
+    margin-left: 10%;
+    margin-right: 2%;
+}
+.sub-topic{
+    margin-left: 15%;
+    margin-right: 2%;
+}
+.content{
+    margin-left: 20%;
+    margin-right: 2%;
+}
+.text-color{
+    margin-left: 25%;
+    color: aliceblue;
+}
+.text-color1{
+    margin-left: 2%;
+    color: aliceblue;
+}
+.text-color2{
+    margin-left: 25%;
+    color:aliceblue;
+}
+.text-color3{
+    margin-left: 5%;
+    color:aliceblue;
+}
