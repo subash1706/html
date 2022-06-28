@@ -165,11 +165,13 @@ h2 {
     width: 80%;
     margin-left: 10%;
     background-color: #00283b;
+    border-radius: 20px;
 }
 .skills {
     text-align: right;
-    padding-top: 5%;
+    padding-top: 3%;
     color: white;
+    border-radius: 20px;
 }
 .autocad {width: 90%; background-color: whitesmoke}
 .solidworks {width: 80%; background-color: whitesmoke;}
