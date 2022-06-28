@@ -1,9 +1,15 @@
 *{
     box-sizing: border-box;
-    font-family: Georgia, serif;
+}
+.about{
+    margin-top: 20%;    
+}
+.contact{
+    margin-top: 15%;
 }
 body{
-    background-color: rgb(56, 53, 53);
+    background-color: rgb(155, 155, 155);
+    font-family: 'Lora';
 }
 h1{
     color: white;
@@ -15,76 +21,128 @@ h2{
 }
 .profile{
     border-radius: 50%;
-    width: 50%;
+    width: 60%;
+    height: 70%;
     margin-left: 20%;
-    margin-top: 25%;
+    margin-top: 6%;
     border-style: solid;
     border-color:#004e6c ;
 }
 .card {
-    width: 65%;
+    width: 70%;
     border-radius: 20px;
-    margin-left: 18.5%;
+    margin-left: 15%;
 }
 .column1 {
     float: left;
     width: 30%;
-    padding: 10px;
-    height: 410px;
+    height: 275px;
     background-color:#00283b;
 }
 .column2 {
     float: left;
     width: 70%;
-    padding: 10px;
-    height: 410px;
-    border-color:white;
+    height: 275px;
     background-color:white;
 }
 .column3  {
     float: left;
     width: 30%;
-    height: 710px;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
     background-color: #004e6c;
     margin-bottom: 10%;
 }
 .column4 {
     float: left;
     width: 70%;
-    height: 100%;
     background-color:white;
+    display: flex;    
+    flex-direction: column;
     margin-bottom: 10%;
-
 }
 .topic{
-    margin-left: 5%;
+    margin-left: 5%;    
+    font-size: 22px;
+    font-weight: 1000;
+    color:#00283b ;
+}
+.iconcolor{
+    color: #004e6c;
 }
 .circle-icon {
     background:#00283b;
-    padding:10px;
     border-radius: 50%;
     color: white;
+    width: 30px;
+}
+.circle-icon1 {
+    background:white;
+    border-radius: 50%;
+    width: 20px;
 }
 .topic1{
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.topic2{
     margin-left: 10%;
-    margin-right: 2%;
+    margin-right: 10%;
 }
 .topic3{
     margin-left: 10%;
-    margin-right: 2%;
+    margin-right: 10%;
+    color: white;
 }
 .sub-topic{
-    margin-left: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sub-topic1{
+    margin-left: 10%;
     margin-right: 2%;
+    color: #004e6c;
+    font-weight:bolder;
+    font-size: 15px;
+}
+.sub-topic3{
+    color:rgb(223, 208, 208);
+    font-size: 12px;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.declaration{
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    color: #00283b;
+    font-weight:bolder;
+    font-size: 15px;
 }
 .content{
-    margin-left: 20%;
-    margin-right: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.content1{
+    margin-left: 10%;
+    margin-right: 5%;
+    font-size: 12px;
+    font-weight: 900;
+}
+.content2{
+    margin-left: 10%;
+    margin-right: 5%;
+    font-size: 11px;
 }
 .text-color{
-    margin-left: 25%;
+    margin-left: 30%;
+    margin-right: 4%;
     color: aliceblue;
+    font-size: 22px;
 }
 .text-color1{
     margin-left: 2%;
@@ -98,3 +156,28 @@ h2{
     margin-left: 5%;
     color:aliceblue;
 }
+.row1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.course-title{
+    font-size: 13px;
+}
+.container {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #00283b;
+}
+.skill{
+    margin-top: 15%;
+}
+.skills {
+    text-align: right;
+    padding-top: 5%;
+    color: white;
+}
+.autocad {width: 90%; background-color: whitesmoke}
+.solidworks {width: 80%; background-color: whitesmoke;}
+.cprogram {width: 65%; background-color: whitesmoke;}
+.python {width: 67%; background-color:whitesmoke;}
