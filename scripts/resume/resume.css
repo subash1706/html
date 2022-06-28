@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Georgia, serif;
 }
 body{
     background-color: rgb(56, 53, 53);
@@ -8,12 +9,17 @@ h1{
     color: white;
     margin-left: 50%;
 }
+h2{
+    color:#00283b ;
+    font-weight: bold;
+}
 .profile{
-    border-radius: 70%;
-    width: 60%;
+    border-radius: 50%;
+    width: 50%;
     margin-left: 20%;
     margin-top: 25%;
-    border-style: groove;
+    border-style: solid;
+    border-color:#004e6c ;
 }
 .card {
     width: 65%;
@@ -25,34 +31,40 @@ h1{
     width: 30%;
     padding: 10px;
     height: 410px;
-    background-color:rgba(21, 21, 95, 0.733);
+    background-color:#00283b;
 }
 .column2 {
     float: left;
     width: 70%;
     padding: 10px;
     height: 410px;
-    border-color:rgb(205, 199, 233) ;
-    background-color:rgb(205, 199, 233);
+    border-color:white;
+    background-color:white;
 }
 .column3  {
     float: left;
     width: 30%;
     height: 710px;
     padding: 10px;
-    background-color:rgba(53, 53, 94, 0.733);
+    background-color: #004e6c;
     margin-bottom: 10%;
 }
 .column4 {
     float: left;
     width: 70%;
     height: 100%;
-    background-color:rgb(205, 199, 233);
+    background-color:white;
     margin-bottom: 10%;
 
 }
 .topic{
     margin-left: 5%;
+}
+.circle-icon {
+    background:#00283b;
+    padding:10px;
+    border-radius: 50%;
+    color: white;
 }
 .topic1{
     margin-left: 10%;
